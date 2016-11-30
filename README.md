@@ -1,5 +1,5 @@
 # Script and instruction for building openFrameworks on C.H.I.P.
-Tested with openFrameworks 0.9.8 and CHIP OS 4.4.13
+Tested with openFrameworks 0.9.8 and CHIP OS 4.4.13 (GUI and PocketCHIP versions)  -  note it seems this doesn't work on the headless version of the CHIP OS due to some missing EGL related package.  Some research required to figure out what's going on there - if you know please let me know.
 
 From a freshly flashed chip:
 
@@ -10,7 +10,7 @@ update and upgrade
 `sudo apt-get upgrade`
 
 
-install git and clone this repo if not already done and cd into repo directory
+install git, clone this repo and cd into repo directory
 
 `sudo apt-get install git`
 
@@ -41,12 +41,12 @@ go to script folder, install codecs and build openFrameworks
 
 `sudo linux/debian/install_codecs.sh`
 
-`sudo ./compileOF.sh`
+`linux/compileOF.sh`
 
 
 rebuild poco 
 
-`cd scripts/apothecary`
+`cd ../scripts/apothecary`
 
 `./apothecary -tlinuxarmv7l update poco`
 
