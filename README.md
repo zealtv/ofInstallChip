@@ -3,7 +3,7 @@ Tested with openFrameworks 0.9.8 and CHIP OS 4.4.13
 
 From a freshly flashed chip:
 
-run the install_dependencies_chip.sh script in this repo
+run the install_dependencies_chip.sh script in this repo - this is the same as the standard install_dependencies script with mesa related packages removed.
 
 `sudo ./install_dependencies_chip.sh`
 
