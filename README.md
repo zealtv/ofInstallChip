@@ -10,14 +10,11 @@ update and upgrade
 `sudo apt-get upgrade`
 
 
-install git and clone this repo if not already done
+install git and clone this repo if not already done and cd into repo directory
 
 `sudo apt-get install git`
 
 `git clone https://github.com/zealtv/ofInstallChip.git`
-
-
-cd into repo directory
 
 `cd ofInstallChip`
 
@@ -38,17 +35,11 @@ download and extract openFrameworks for linux arm7:
 `tar -xf of_v0.9.8_linuxarmv7l_release.tar.gz`
 
 
-go to script folder 
+go to script folder, install codecs and build openFrameworks 
 
 `cd of_v0.9.8_linuxarmv7l_release/scripts`
 
-
-install codecs 
-
 `sudo linux/debian/install_codecs.sh`
-
-
-build openFrameworks 
 
 `sudo ./compileOF.sh`
 
