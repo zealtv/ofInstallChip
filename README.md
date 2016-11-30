@@ -10,7 +10,21 @@ update and upgrade
 `sudo apt-get upgrade`
 
 
-run the install_dependencies_chip.sh script in this repo - this is the same as the standard install_dependencies script with mesa related packages removed.
+install git and clone this repo if not already done
+
+`sudo apt-get install git`
+
+`git clone https://github.com/zealtv/ofInstallChip.git`
+
+
+cd into repo directory
+
+`cd ofInstallChip`
+
+
+make excecutable and run the install_dependencies_chip.sh script in this repo - this is the same as the standard install_dependencies script with mesa related packages removed.
+
+`chmod +x ./install_dependencies_chip.sh`
 
 `sudo ./install_dependencies_chip.sh`
 
